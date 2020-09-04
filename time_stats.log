@@ -1,0 +1,51 @@
+2020-08-30 00:49:10,541 INFO: 
+2020-08-30 00:49:10,541 INFO: Namespace(device='CPU', experiment_name='FP32', extensions=None, face_detection_model='models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml', facial_landmark_model='models/intel/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml', gaze_estimation_model='models/intel/gaze-estimation-adas-0002/FP32/gaze-estimation-adas-0002.xml', head_pose_model='models/intel/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml', input_file='bin/demo.mp4', input_type='video', log_file='computer_pointer_controller.log', output_file='bin/output_video.mp4', prob_threshold=0.5, show_face_detection=True, show_facial_landmarks=True, show_gaze_estimation=True, show_head_pose=True, show_pointer=True, show_time_stats=True, verbose=False)
+2020-08-30 00:49:10,542 INFO: 
+2020-08-30 00:49:10,542 INFO: Loading model models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml
+2020-08-30 00:49:10,739 INFO: Loading model models/intel/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml
+2020-08-30 00:49:10,859 INFO: Loading model models/intel/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml
+2020-08-30 00:49:10,978 INFO: Loading model models/intel/gaze-estimation-adas-0002/FP32/gaze-estimation-adas-0002.xml
+2020-08-30 00:49:11,190 INFO: screen_size: Size(width=1920, height=1080)
+2020-08-30 00:49:11,293 INFO: CREATING VIDEO WRITER: output_file=bin/output_video.mp4, frame_rate=30.02, size=(1920, 1080), fourcc_string=mp4v
+2020-08-30 00:50:57,620 INFO: 	TIME STATISTICS:	FP32
+2020-08-30 00:50:57,620 INFO: 	MODEL	LOAD TIME [SECONDS]	TOTAL INFERENCE TIME [SECONDS]	AVG INFERENCE TIME [SECONDS]	FRAMES PER SECOND
+2020-08-30 00:50:57,620 INFO: 	Face Detection Model	0.1976	20.4982	0.0345	29.0269
+2020-08-30 00:50:57,621 INFO: 	Facial Landmark Model	0.1197	0.7504	0.0013	792.9129
+2020-08-30 00:50:57,621 INFO: 	Head Pose Model	0.1184	2.6885	0.0045	221.3162
+2020-08-30 00:50:57,621 INFO: 	Gaze Estimation Model	0.1396	3.4707	0.0058	171.4342
+2020-08-30 00:50:57,621 INFO: 	MODEL	TOTAL LOAD TIME [SECONDS]	TOTAL INFERENCE TIME [SECONDS]	OTHER PROCESSES [SECONDS]	OVERALL TIME [SECONDS]
+2020-08-30 00:50:57,621 INFO: 	FP32	0.5753	27.4078	79.0976	107.0807
+2020-08-30 00:51:43,451 INFO: 
+2020-08-30 00:51:43,451 INFO: Namespace(device='CPU', experiment_name='FP16', extensions=None, face_detection_model='models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml', facial_landmark_model='models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml', gaze_estimation_model='models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml', head_pose_model='models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml', input_file='bin/demo.mp4', input_type='video', log_file='computer_pointer_controller.log', output_file='bin/output_video.mp4', prob_threshold=0.5, show_face_detection=True, show_facial_landmarks=True, show_gaze_estimation=True, show_head_pose=True, show_pointer=True, show_time_stats=True, verbose=False)
+2020-08-30 00:51:43,451 INFO: 
+2020-08-30 00:51:43,451 INFO: Loading model models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml
+2020-08-30 00:51:43,647 INFO: Loading model models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml
+2020-08-30 00:51:43,758 INFO: Loading model models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml
+2020-08-30 00:51:43,892 INFO: Loading model models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml
+2020-08-30 00:51:44,101 INFO: screen_size: Size(width=1920, height=1080)
+2020-08-30 00:51:44,203 INFO: CREATING VIDEO WRITER: output_file=bin/output_video.mp4, frame_rate=30.02, size=(1920, 1080), fourcc_string=mp4v
+2020-08-30 00:53:28,784 INFO: 	TIME STATISTICS:	FP16
+2020-08-30 00:53:28,784 INFO: 	MODEL	LOAD TIME [SECONDS]	TOTAL INFERENCE TIME [SECONDS]	AVG INFERENCE TIME [SECONDS]	FRAMES PER SECOND
+2020-08-30 00:53:28,784 INFO: 	Face Detection Model	0.1956	20.7179	0.0348	28.7191
+2020-08-30 00:53:28,785 INFO: 	Facial Landmark Model	0.1108	0.6918	0.0012	860.0439
+2020-08-30 00:53:28,785 INFO: 	Head Pose Model	0.1333	2.4822	0.0042	239.7078
+2020-08-30 00:53:28,785 INFO: 	Gaze Estimation Model	0.1468	3.3907	0.0057	175.4809
+2020-08-30 00:53:28,785 INFO: 	MODEL	TOTAL LOAD TIME [SECONDS]	TOTAL INFERENCE TIME [SECONDS]	OTHER PROCESSES [SECONDS]	OVERALL TIME [SECONDS]
+2020-08-30 00:53:28,785 INFO: 	FP16	0.5865	27.2826	77.4659	105.3350
+2020-08-30 00:53:47,328 INFO: 
+2020-08-30 00:53:47,328 INFO: Namespace(device='CPU', experiment_name='FP16-INT8', extensions=None, face_detection_model='models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml', facial_landmark_model='models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009.xml', gaze_estimation_model='models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002.xml', head_pose_model='models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001.xml', input_file='bin/demo.mp4', input_type='video', log_file='computer_pointer_controller.log', output_file='bin/output_video.mp4', prob_threshold=0.5, show_face_detection=True, show_facial_landmarks=True, show_gaze_estimation=True, show_head_pose=True, show_pointer=True, show_time_stats=True, verbose=False)
+2020-08-30 00:53:47,328 INFO: 
+2020-08-30 00:53:47,328 INFO: Loading model models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml
+2020-08-30 00:53:47,522 INFO: Loading model models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009.xml
+2020-08-30 00:53:47,669 INFO: Loading model models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001.xml
+2020-08-30 00:53:47,909 INFO: Loading model models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002.xml
+2020-08-30 00:53:48,261 INFO: screen_size: Size(width=1920, height=1080)
+2020-08-30 00:53:48,363 INFO: CREATING VIDEO WRITER: output_file=bin/output_video.mp4, frame_rate=30.02, size=(1920, 1080), fourcc_string=mp4v
+2020-08-30 00:55:32,657 INFO: 	TIME STATISTICS:	FP16-INT8
+2020-08-30 00:55:32,657 INFO: 	MODEL	LOAD TIME [SECONDS]	TOTAL INFERENCE TIME [SECONDS]	AVG INFERENCE TIME [SECONDS]	FRAMES PER SECOND
+2020-08-30 00:55:32,658 INFO: 	Face Detection Model	0.1942	20.8667	0.0351	28.5143
+2020-08-30 00:55:32,658 INFO: 	Facial Landmark Model	0.1467	0.6754	0.0011	880.9190
+2020-08-30 00:55:32,658 INFO: 	Head Pose Model	0.2391	1.9398	0.0033	306.7331
+2020-08-30 00:55:32,658 INFO: 	Gaze Estimation Model	0.2843	1.9330	0.0032	307.8149
+2020-08-30 00:55:32,658 INFO: 	MODEL	TOTAL LOAD TIME [SECONDS]	TOTAL INFERENCE TIME [SECONDS]	OTHER PROCESSES [SECONDS]	OVERALL TIME [SECONDS]
+2020-08-30 00:55:32,658 INFO: 	FP16-INT8	0.8643	25.4149	79.0523	105.3315

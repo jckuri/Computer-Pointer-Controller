@@ -1,0 +1,10 @@
+2020-08-30 04:04:21,370 INFO: 
+2020-08-30 04:04:21,370 INFO: Namespace(device='CPU', experiment_name='Experiment X', extensions=None, face_detection_model='models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml', facial_landmark_model='models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml', gaze_estimation_model='models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml', head_pose_model='models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml', input_file='', input_type='SCANNER', log_file='computer_pointer_controller.log', output_file='bin/output_video_camera.mp4', prob_threshold=0.5, show_face_detection=True, show_facial_landmarks=True, show_gaze_estimation=True, show_head_pose=True, show_pointer=False, show_time_stats=False, verbose=False)
+2020-08-30 04:04:21,370 INFO: 
+2020-08-30 04:04:21,370 INFO: Loading model models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml
+2020-08-30 04:04:21,645 INFO: Loading model models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml
+2020-08-30 04:04:21,766 INFO: Loading model models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml
+2020-08-30 04:04:21,905 INFO: Loading model models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml
+2020-08-30 04:04:22,058 ERROR: 
+"SCANNER" is not a supported input type. Supported input types are "video", "cam", or "image".
+
